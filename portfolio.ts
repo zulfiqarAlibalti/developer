@@ -2,7 +2,7 @@ import emoji from "react-easy-emoji";
 import {
   EducationType,
   ExperienceType,
-  // FeedbackType,
+  FeedbackType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -395,10 +395,10 @@ export const projects: ProjectType[] = [
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: "",
-    role: "",
+    name: "Ajang",
+    role: "Geo-Scientist",
     feedback:
-      "",
+      "Your analytical is more helpful for me. I learned too much from you. Your way of instruction is so gentle",
   },
   
 ];
