@@ -12,39 +12,45 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Zulfiqar Ali",
+  title: "Greetings, I'm Zulfiqar",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "#",
+    "An adept Data Scientist with a robust foundation in Applied and Computational Mathematics. My expertise spans Machine Learning, Deep Learning, Image Processing, and Signal Processing. I leverage Natural Language Processing to optimize outcomes and excel in developing End-to-End Machine Learning and Computer Vision applications.",
+  resumeLink:
+    "https://github.com/zulfiqarAlibalti/cv/blob/master/CV.pdf",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "zulfiqarAlibalti",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  email: "mailto:zulfiqar.ali01@utrgv.edu",
+  facebook: "https://www.facebook.com/Zulfibalti/",
+  instagram: "https://www.instagram.com/zulfibalti96/?hl=en",
+  twitter: "https://twitter.com/Zulfiqa08762401",
+  github: "https://github.com/zulfiqarAlibalti",
+  linkedin: "https://www.linkedin.com/in/zulfiqar-ali592/",
 };
 
-export const skillsSection: SkillsSectionType = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+export const skillsSection = {
+  title: "Professional Expertise",
+  subTitle:
+    "Hands-on Experience in Explainable XAI with End to End Application in Healthcare, Autonmous Vehicle and Media Industry",
   data: [
     {
-      title: "Full Stack Development",
-      lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+      title: "Artificial Intelligence & Deep Learning",
+      lottieAnimationFile: "/lottie/skills/analytics.json",
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji(
+          "⚡Building Compelete System using Generative AI in media Industry"
+        ),
+        emoji("⚡Building End to End system with real time analytics"),
+        emoji(
+          "⚡Application of Transformer model in Autonoums Vehicles and Healthcare "
+        ),
       ],
       softwareSkills: [
         {
@@ -55,6 +61,57 @@ export const skillsSection: SkillsSectionType = {
           skillName: "Django",
           iconifyTag: "vscode-icons:file-type-django",
         },
+        {
+          skillName: "Heroku",
+          iconifyTag: "logos:heroku-icon",
+        },
+        {
+          skillName: "Machine Leanrning",
+          iconifyTag: "carbon:machine-learning",
+        },
+        {
+          skillName: "Laguage Modeling",
+          iconifyTag: "arcticons:openai-chatgpt",
+        },
+        {
+          skillName: "Data Structures",
+          iconifyTag: "carbon:data-structured",
+        },
+        {
+          skillName: "PyTorch",
+          iconifyTag: "devicon:pytorch",
+        },
+        {
+          skillName: "TensorFlow",
+          iconifyTag: "devicon:tensorflow-wordmark",
+        },
+        {
+          skillName: "OpenCV",
+          iconifyTag: "skill-icons:opencv-dark",
+        },
+      ],
+    },
+    
+    {
+      title: "Full Stack Web Development",
+      lottieAnimationFile: "/lottie/skills/fullstack3.json",
+      skills: [
+        ,
+        emoji(
+          "⚡ Creating responsive web apps using HTML, CSS, and Bootstrap4, JQueryb, Netlify, and Heroku."
+        ),
+        emoji(
+          "⚡ Building responsive Single-Page Apps (SPA) and Progressive Web Apps (PWA) in React.js."
+        ),
+        emoji("⚡ Developing responsive static websites using Next.js."),
+        emoji(
+          "⚡ Implementing Django REST Framework and building RESTful APIs."
+        ),
+        emoji(
+          "⚡ Utilizing WordPress to create educational websites."
+        ),
+      ],
+      softwareSkills: [
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
@@ -68,13 +125,56 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
+          skillName: "Redux",
+          iconifyTag: "logos:redux",
         },
         {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
+          skillName: "NPM",
+          iconifyTag: "logos:npm-icon",
         },
+        {
+          skillName: "Yarn",
+          iconifyTag: "logos:yarn",
+        },
+        {
+          skillName: "HTML-5",
+          iconifyTag: "vscode-icons:file-type-html",
+        },
+        {
+          skillName: "CSS-3",
+          iconifyTag: "vscode-icons:file-type-css",
+        },
+        {
+          skillName: "WordPress",
+          iconifyTag: "logos:wordpress-icon",
+        },
+        {
+          skillName: "Yarn",
+          iconifyTag: "logos:yarn",
+        },
+        {
+          skillName: "SQL Database",
+          iconifyTag: "vscode-icons:file-type-sql",
+        },
+        {
+          skillName: "MongoDB",
+          iconifyTag: "vscode-icons:file-type-mongo",
+        },
+      ],
+    },
+    {
+      title: "Cloud Computing/DevOps Tools",
+      lottieAnimationFile: "/lottie/skills/cloud.json",
+      skills: [
+        emoji("⚡ Working on various cloud platforms to build and train Deep Learning and Computer Vision models."),
+        emoji(
+          "⚡ Deploying websites, hosting, and integrating databases on virtual machine instances."
+        ),
+        emoji(
+          "⚡ Utilizing Github, Netlify, and Heroku to construct CI/CD pipelines for automated testing and deployment."
+        )
+      ],
+      softwareSkills: [
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
@@ -83,6 +183,40 @@ export const skillsSection: SkillsSectionType = {
           skillName: "Docker",
           iconifyTag: "logos:docker-icon",
         },
+        {
+          skillName: "IBM",
+          iconifyTag: "logos:ibm",
+        },
+        {
+          skillName: "AWS",
+          iconifyTag: "logos:aws",
+        },
+        {
+          skillName: "Azure",
+          iconifyTag: "logos:microsoft-azure",
+        },
+        {
+          skillName: "Heroku",
+          iconifyTag: "logos:heroku-icon",
+        },
+        {
+          skillName: "PostgreSQL",
+          iconifyTag: "logos:postgresql",
+        },
+        
+        
+        {
+          skillName: "Github Actions",
+          iconifyTag: "logos:github-actions",
+        },
+        {
+          skillName: "Cloudinary",
+          iconifyTag: "logos:cloudinary",
+        },
+        {
+          skillName: "Nginx",
+          iconifyTag: "logos:nginx",
+        },
       ],
     },
   ],
@@ -90,124 +224,199 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    Stack: "Backend in Python",
+    progressPercentage: "95",
   },
   {
-    Stack: "Backend",
+    Stack: "Research Skill",
     progressPercentage: "90",
   },
+ 
   {
-    Stack: "Programming",
-    progressPercentage: "95",
+    Stack: "DevOps Tools",
+    progressPercentage: "80",
+  },
+  
+  {
+    Stack: "Analytical Skill",
+    progressPercentage: "100",
+  },
+
+  {
+    Stack: "Frontend",
+    progressPercentage: "80",
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    schoolName: "Sejong University",
+    subHeader: "Graduate Rsearch Assistant",
+    duration: "September 2022 - February 2023",
     desc: "",
     grade: "Grade A",
-    descBullets: [], // Array of Strings
+    descBullets: [
+      "Conducting biomedical image analysis using Deep Learning Algorithms.",
+      "Implementing Explainable Artificial Intelligence in Image reconstruction.",
+      "Training and deploying Vision Transformer (ViTs) models with an End-to-End solution.",
+    ], // Array of Strings
+  },
+  {
+    schoolName: "COMSATS University Islamabad",
+    subHeader: "Master of Science in Applied & Computational Mathematics",
+    duration: "September 2017 - August 2021",
+    desc: "Graduate Research Assistant.",
+    grade: "Grade A",
+    descBullets: [
+      "Utilized Machine Learning algorithms for future prediction and automation in various domains.",
+      "Conducted missing value analysis of large-scale datasets using state-of-the-art methodologies.",
+      "Developed optimization algorithms, statistical machine learning, and deep neural networks.",
+    ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "Data Scientist/Analyst ",
+    company: "Press Information Department, Government of Pakistan",
+    companyLogo: "/img/icons/common/pid.jpg",
+    date: "April 2023 – Present",
+    desc: "Automating and processing media information using Artificial Intelligence.",
+    descBullets: [
+      "Conducting sentiment analysis.",
+      "Analyzing content using Natural Language Processing & Machine Learning approaches.",
+    ],
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: "Graduate Research Assistant ",
+    company: "Center for Photonic Systems, Dept. of Electrical Engineering, Sejong University",
+    companyLogo: "/img/icons/common/Sejong_University.png",
+    date: "September 2022 - February 2023 ",
+    desc: "Working on deep architecture for Light-based imaging modality capturing real-time 2D cross-sectional and 3D volumetric images with micron-scale resolution.",
+    descBullets: [
+      "Applying deep learning to analyze clinical images.",
+      "Conducting machine learning-based image analysis.",
+    ],
   },
   {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    role: "Data Scientist & Deep Learning Researcher",
+    company: "NCAI SmartCity Lab",
+    companyLogo: "/img/icons/common/ncai.png",
+    date: "September 2021 – June 2022",
+    desc: "Application of Deep Learning in autonomous vehicles for safe driving.",
+    descBullets: [
+      "Predicting driver behavior using Computer Vision and Deep Learning techniques.",
+      "Implementing object detection and tracking algorithms using OpenCV.",
+      "Conducting headpose estimation using Tensorflow and Dlib.",
+    ],
   },
   {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    role: "Graduate Research Assistant ",
+    company: "Department  of Applied Mathematics Comsats University",
+    companyLogo: "/img/icons/common/comsats.png",
+    date: "September 2017 - August 2021 ",
+    desc: "Optimization of Deep learning algorithms",
+    descBullets: [
+      "Principal Compenent Analysis use care in healthcare",
+      "Boosting algorthms in Biosignal processing",
+    ],
+  },
+  {
+    role: "Machine Learning Intern",
+    company: "Edureka",
+    companyLogo: "/img/icons/common/edureka.jpg",
+    date: "June 2019 – Oct 2020",
+    desc: "Completed projects on different open-source data using Machine Learning and Deep Learning.",
+    descBullets: [
+      "Conducting end-to-end Machine learning projects using Python API and Tensorflow.",
+      "Analyzing PUBG Data using Python for data analysis.",
+      "Building models using Supervised Learning Algorithms.",
+      "Hands-on projects on various Kaggle datasets.",
+    ],
+  },
+  
+  {
+    role: "Front-End Developer",
+    company: "Upwork",
+    companyLogo: "/img/icons/common/upwork.png",
+    date: "May 2020 - May 2021",
+    desc: "Developing responsive static and dynamic Web Apps using JavaScript and Python frameworks.",
+    descBullets: [
+      "Building Machine Learning and Computer Vision Web Applications using React.js as the frontend and Python Flask and FastAPI as the backend.",
+    ],
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "Audio-Visual Hate Speech Recognition",
+    desc: "Hate Speech recongition on real time audio visual data with end to end application",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "Human-emotion recongition",
+    desc: "Emotion recognition and clasfication using face data",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "Biomedical Imaging",
+    desc: "Segmentation and detection of lesions using Deep Convolutional Networks.",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Data Science with Machine Learning Problem: A Case Study",
+    desc: "Classification of children's behavioral abnormalities using Machine Learning.",
+    link: "https://github.com/zulfiqarAlibalti/research-projects",
+  },
+  {
+    name: "Sentiment Analysis",
+    desc: "Analysis of sentiment in Tweets using Python API.",
+    link: "https://zulfiqaralibalti.github.io/sentiment-analysis-end-to-end/",
+  },
+  {
+    name: "AgriDeepNet",
+    desc: "Recommendation system for crops and fertilizers based on soil features in real-time using Deep Neural Network architecture.",
+    link: "",
+  },
+  {
+    name: "Computer Vision",
+    desc: "Development of computer vision and image processing models using OpenCV and Python.",
+    link: "https://example.com",
+  },
+  {
+    name: "Python Introductory Course",
+    desc: "Created a comprehensive Python course for Data Science and Mathematicians/Statisticians.",
+    link: "https://example.com",
+  },
+  {
+    name: "Essential Mathematics for Machine Learning",
+    desc: "Developed a mathematical foundation behind Machine Learning and Deep learning algorithms.",
+    
+	
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
-    feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
-  },
-  {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
-    feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
-  },
-  {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
-    feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
-  },
-];
+// export const feedbacks: FeedbackType[] = [
+//   {
+//     name: "",
+//     role: "",
+//     feedback:
+//       "",
+//   },
+//   
+// ];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Zulfiqar Ali",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  author: "Zulfiqar Ali",
+  image: "https://avatars.githubusercontent.com/u/52883632?v=4",
+  url: "",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Zulfiqar",
+    "Zulfiqar Ali",
+    "zulfiqar-ali592",
+    "zulfiqarAlibalti",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Zulfiqar Portfolio ",
+    "Zulfiqar Ali Portfolio",
   ],
 };
