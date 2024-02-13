@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "An adept Data Scientist with a robust foundation in Applied and Computational Mathematics. My expertise spans Machine Learning, Deep Learning, Image Processing, and Signal Processing. I leverage Natural Language Processing to optimize outcomes and excel in developing End-to-End Machine Learning and Computer Vision applications.",
   resumeLink:
-    "https://github.com/zulfiqarAlibalti/Resume.git",
+    "https://github.com/zulfiqarAlibalti/Resume/blob/master/Resume.pdf",
 };
 
 export const openSource = {
