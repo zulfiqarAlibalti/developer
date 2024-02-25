@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Zulfiqar Ali",
   title: "Greetings, I'm Zulfiqar",
   description:
-    "An adept Data Scientist/Full stack developer with a robust foundation in Applied and Computational Mathematics. My expertise spans Machine Learning, Deep Learning, Image Processing, and Signal Processing. I leverage Natural Language Processing to optimize outcomes and excel in developing End-to-End Machine Learning and Computer Vision applications.",
+    "I am a Data Scientist/Full stack developer with a robust foundation in Applied and Computational Mathematics. My expertise spans Machine Learning, Deep Learning, Image Processing, and Signal Processing. I leverage Natural Language Processing to optimize outcomes and excel in developing End-to-End Machine Learning and Computer Vision with full stack applications.",
   resumeLink:
     "https://github.com/zulfiqarAlibalti/Resume/blob/master/Resume.pdf",
 };
@@ -38,18 +38,18 @@ export const socialLinks: SocialLinksType = {
 export const skillsSection = {
   title: "Professional Expertise",
   subTitle:
-    "Hands-on Experience in Explainable XAI with End to End Application in Healthcare, Autonmous Vehicle and Media Industry",
+    "Design and optimized achine Learning with Application in Healthcare, Autonmous Vehicle and Media Industry",
   data: [
     {
-      title: "Artificial Intelligence & Deep Learning",
+      title: "Artificial Intelligence & Deep Neural Networks",
       lottieAnimationFile: "/lottie/skills/analytics.json",
       skills: [
         emoji(
-          "⚡Building Compelete System using Generative AI in media Industry"
+          "⚡Building Preditive System using Generative AI in media Industry"
         ),
-        emoji("⚡Building End to End system with real time analytics"),
+        emoji("⚡Building End to End system with real time analytics dashboard"),
         emoji(
-          "⚡Application of Transformer model in Autonoums Vehicles and Healthcare "
+          "⚡Application of Transformer model in Autonoums Vehicles and biomedical aimaging  and biosignal processing"
         ),
       ],
       softwareSkills: [
@@ -98,17 +98,17 @@ export const skillsSection = {
       skills: [
         ,
         emoji(
-          "⚡ Creating responsive web apps using HTML, CSS, and Bootstrap4, JQueryb, Netlify, and Heroku."
+          "⚡ Creating responsive web apps using HTML, CSS, JavaScript, Bootstrap4,and JQuery"
         ),
         emoji(
           "⚡ Building responsive Single-Page Apps (SPA) and Progressive Web Apps (PWA) in React.js."
         ),
-        emoji("⚡ Developing responsive static websites using Next.js."),
+        emoji("⚡ Developing responsive static/dynamic websites using Next.js."),
         emoji(
           "⚡ Implementing Django REST Framework and building RESTful APIs."
         ),
         emoji(
-          "⚡ Utilizing WordPress to create educational websites."
+          "⚡ Intlligent web application using mern stack with python "
         ),
       ],
       softwareSkills: [
@@ -256,9 +256,9 @@ export const educationInfo: EducationType[] = [
     desc: "",
     grade: "Grade A",
     descBullets: [
-      "Conducting biomedical image analysis using Deep Learning Algorithms.",
-      "Implementing Explainable Artificial Intelligence in Image reconstruction.",
-      "Training and deploying Vision Transformer (ViTs) models with an End-to-End solution.",
+      "Biomedical imaging with transformer modeling.",
+      "Generative artificial intelligence OCT modalities.",
+      "Training and deploying Vision Transformer (ViTs) models with an End-to-End solution in healthcare domain.",
     ], // Array of Strings
   },
   {
@@ -268,7 +268,7 @@ export const educationInfo: EducationType[] = [
     desc: "Graduate Research Assistant.",
     grade: "Grade A",
     descBullets: [
-      "Utilized Machine Learning algorithms for future prediction and automation in various domains.",
+      "Utilized Baysian  algorithms in  .",
       "Conducted missing value analysis of large-scale datasets using state-of-the-art methodologies.",
       "Developed optimization algorithms, statistical machine learning, and deep neural networks.",
     ],
@@ -305,6 +305,7 @@ export const experience: ExperienceType[] = [
     date: "September 2021 – June 2022",
     desc: "Application of Deep Learning in autonomous vehicles for safe driving.",
     descBullets: [
+      "Implemented SLAM algorithms for UAVs navigation.",
       "Predicting driver behavior using Computer Vision and Deep Learning techniques.",
       "Implementing object detection and tracking algorithms using OpenCV.",
       "Conducting headpose estimation using Tensorflow and Dlib.",
@@ -412,6 +413,8 @@ export const seoData: SEODataType = {
   url: "",
   keywords: [
     "Zulfiqar",
+    "Zulfikar",
+    "Zulfikar Ali",
     "Zulfiqar Ali",
     "zulfiqar-ali592",
     "zulfiqarAlibalti",
