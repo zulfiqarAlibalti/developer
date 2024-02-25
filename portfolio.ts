@@ -268,8 +268,8 @@ export const educationInfo: EducationType[] = [
     desc: "Graduate Research Assistant.",
     grade: "Grade A",
     descBullets: [
-      "Utilized Baysian  algorithms in  .",
-      "Conducted missing value analysis of large-scale datasets using state-of-the-art methodologies.",
+      "Utilized Bayesian  algorithms in muti-classification problems .",
+      "Conducted expected maximization algorithms on large-scale datasets using state-of-the-art methodologies.",
       "Developed optimization algorithms, statistical machine learning, and deep neural networks.",
     ],
   },
@@ -412,6 +412,7 @@ export const seoData: SEODataType = {
   image: "https://avatars.githubusercontent.com/u/52883632?v=4",
   url: "",
   keywords: [
+    "ذوالفقار علی",
     "Zulfiqar",
     "Zulfikar",
     "Zulfikar Ali",
