@@ -251,26 +251,28 @@ export const SkillBars: SkillBarsType[] = [
 export const educationInfo: EducationType[] = [
   {
     schoolName: "Sejong University",
-    subHeader: "Master of Science in Optical Engineering",
+    subHeader: "Graduate Rsearch Assistant",
     duration: "September 2022 - February 2023",
-    desc: "Graduate Research assistant  in the field of Biomedical Imaging.",
-    descBullets: [
-      // "Conducting biomedical image analysis using Deep Learning Algorithms.",
-      // "Implementing Explainable Artificial Intelligence in Image reconstruction.",
-      // "Training and deploying Vision Transformer (ViTs) models with an End-to-End solution.",
-    ],
+    desc: "",
+    grade: "Grade A",
+    // descBullets: [
+    //   "Applying deep learning to analyze clinical images.",
+    //   "Build end to end application for lung nudles segmentation.",
+    //   "Conducting biomedical imaging  3DNet  Algorithms.",
+    //   "Training and deploying Vision Transformer (ViTs) models with an End-to-End solution.",
+    // ],// Array of Strings
   },
-
   {
     schoolName: "COMSATS University Islamabad",
     subHeader: "Master of Science in Applied & Computational Mathematics",
-    duration: "September 2018 - September 2020",
-    desc: "Applied  Machine Learning in time series data data.",
-    descBullets: [
-      // "Utilized Machine Learning algorithms for future prediction and automation in various domains.",
-      // "Conducted missing value analysis of large-scale datasets using state-of-the-art methodologies.",
-      // "Developed optimization algorithms, statistical machine learning, and deep neural networks.",
-    ],
+    duration: "September 2017 - August 2021",
+    desc: "Graduate Research Assistant.",
+    grade: "Grade A",
+    // descBullets: [
+    //   "Utilized Bayesian  algorithms in muti-classification problems .",
+    //   "Conducted expected maximization algorithms on large-scale datasets using state-of-the-art methodologies.",
+    //   "Developed optimization algorithms, statistical machine learning, and deep neural networks.",
+    // ],
   },
 ];
 
