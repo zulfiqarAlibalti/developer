@@ -251,26 +251,25 @@ export const SkillBars: SkillBarsType[] = [
 export const educationInfo: EducationType[] = [
   {
     schoolName: "Sejong University",
-    subHeader: "Graduate Rsearch Assistant",
+    subHeader: "Master of Science in Optical Engineering",
     duration: "September 2022 - February 2023",
-    desc: "",
-    grade: "Grade A",
+    desc: "Graduate Research assistant  in the field of Biomedical Imaging.",
     descBullets: [
-      "Biomedical imaging with transformer modeling.",
-      "Generative artificial intelligence OCT modalities.",
-      "Training and deploying Vision Transformer (ViTs) models with an End-to-End solution in healthcare domain.",
-    ], // Array of Strings
+      // "Conducting biomedical image analysis using Deep Learning Algorithms.",
+      // "Implementing Explainable Artificial Intelligence in Image reconstruction.",
+      // "Training and deploying Vision Transformer (ViTs) models with an End-to-End solution.",
+    ],
   },
+
   {
     schoolName: "COMSATS University Islamabad",
     subHeader: "Master of Science in Applied & Computational Mathematics",
-    duration: "September 2017 - August 2021",
-    desc: "Graduate Research Assistant.",
-    grade: "Grade A",
+    duration: "September 2018 - September 2020",
+    desc: "Applied Machine Learning in time series data data.",
     descBullets: [
-      "Utilized Bayesian  algorithms in muti-classification problems .",
-      "Conducted expected maximization algorithms on large-scale datasets using state-of-the-art methodologies.",
-      "Developed optimization algorithms, statistical machine learning, and deep neural networks.",
+      // "Utilized Machine Learning algorithms for future prediction and automation in various domains.",
+      // "Conducted missing value analysis of large-scale datasets using state-of-the-art methodologies.",
+      // "Developed optimization algorithms, statistical machine learning, and deep neural networks.",
     ],
   },
 ];
@@ -295,55 +294,46 @@ export const experience: ExperienceType[] = [
     desc: "Working on deep architecture for Light-based imaging modality capturing real-time 2D cross-sectional and 3D volumetric images with micron-scale resolution.",
     descBullets: [
       "Applying deep learning to analyze clinical images.",
-      "Conducting machine learning-based image analysis.",
+      "Build end to end application for lung nudles segmentation.",
+      "Conducting biomedical imaging  3DNet  Algorithms.",
+      "Training and deploying Vision Transformer (ViTs) models with an End-to-End solution.",
     ],
   },
+  
   {
-    role: "Data Scientist & Deep Learning Researcher",
+    role: "Deep Learning Research Engineer",
     company: "NCAI SmartCity Lab",
     companyLogo: "/img/icons/common/ncai.png",
     date: "September 2021 – June 2022",
     desc: "Application of Deep Learning in autonomous vehicles for safe driving.",
     descBullets: [
-      "Implemented SLAM algorithms for UAVs navigation.",
-      "Predicting driver behavior using Computer Vision and Deep Learning techniques.",
+      "Predicting driver behavior using computer Vision and deep learning techniques.",
       "Implementing object detection and tracking algorithms using OpenCV.",
       "Conducting headpose estimation using Tensorflow and Dlib.",
-    ],
-  },
-  {
-    role: "Graduate Research Assistant ",
-    company: "Department  of Applied Mathematics Comsats University",
-    companyLogo: "/img/icons/common/comsats.png",
-    date: "September 2017 - August 2021 ",
-    desc: "Optimization of Deep learning algorithms",
-    descBullets: [
-      "Principal Compenent Analysis use care in healthcare",
-      "Boosting algorthms in Biosignal processing",
     ],
   },
   {
     role: "Machine Learning Intern",
     company: "Edureka",
     companyLogo: "/img/icons/common/edureka.jpg",
-    date: "June 2019 – Oct 2020",
-    desc: "Completed projects on different open-source data using Machine Learning and Deep Learning.",
+    date: "June 2017 –September 2018",
+    desc: "Biomedical imaging using  machine learning and deep learning.",
     descBullets: [
       "Conducting end-to-end Machine learning projects using Python API and Tensorflow.",
-      "Analyzing PUBG Data using Python for data analysis.",
-      "Building models using Supervised Learning Algorithms.",
-      "Hands-on projects on various Kaggle datasets.",
+      "Real time PUBG data analytics.",
+      "Building models using supervised learning algorithms.",
+      "Hands-on projects on various kaggle datasets.",
     ],
   },
   
   {
-    role: "Front-End Developer",
+    role: "Full Stack Developer",
     company: "Upwork",
     companyLogo: "/img/icons/common/upwork.png",
     date: "May 2020 - May 2021",
-    desc: "Developing responsive static and dynamic Web Apps using JavaScript and Python frameworks.",
+    desc: "Developing responsive static and dynamic Web Apps using nextjs  and django.",
     descBullets: [
-      "Building Machine Learning and Computer Vision Web Applications using React.js as the frontend and Python Flask and FastAPI as the backend.",
+      "Building intelligent based Applications with React.js and Python Flask and FastAPI as the backend.",
     ],
   },
 ];
