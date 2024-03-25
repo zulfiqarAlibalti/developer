@@ -266,7 +266,7 @@ export const educationInfo: EducationType[] = [
     schoolName: "COMSATS University Islamabad",
     subHeader: "Master of Science in Applied & Computational Mathematics",
     duration: "September 2017 - August 2021",
-    desc: "Graduate Research Assistant.",
+    desc: " ",
     grade: "Grade A",
     // descBullets: [
     //   "Utilized Bayesian  algorithms in muti-classification problems .",
