@@ -265,7 +265,7 @@ export const educationInfo: EducationType[] = [
     schoolName: "COMSATS University Islamabad",
     subHeader: "Master of Science in Applied & Computational Mathematics",
     duration: "September 2018 - September 2020",
-    desc: "Applied Machine Learning in time series data data.",
+    desc: "Applied  Machine Learning in time series data data.",
     descBullets: [
       // "Utilized Machine Learning algorithms for future prediction and automation in various domains.",
       // "Conducted missing value analysis of large-scale datasets using state-of-the-art methodologies.",

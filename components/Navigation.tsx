@@ -21,7 +21,7 @@ const Navigation = () => {
         <Navbar className="navbar-main navbar-transparent navbar-light headroom" expand="lg" id="navbar-main">
           <Container>
             <NavbarBrand href="/" className="mr-lg-5">
-              <h2 className="text-white" id="nav-title">
+              <h2 className="text-yellow" id="nav-title">
                 {greetings.name}
               </h2>
             </NavbarBrand>
