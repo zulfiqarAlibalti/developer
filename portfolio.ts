@@ -342,6 +342,12 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
+    name: "AI-news Summerizer",
+    desc: "AI-based news summarizer using NLP and Machine Learning.",
+    link: "https://github.com/zulfiqarAlibalti/ai-newssummarizer",
+
+  },
+  {
     name: "Audio-Visual Hate Speech Recognition",
     desc: "Hate Speech recongition on real time audio visual data with end to end application",
   },
