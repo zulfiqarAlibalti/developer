@@ -24,7 +24,7 @@ const Proficiency = () => {
                     <Progress
                       max="100"
                       value={skill.progressPercentage}
-                      color="info"
+                      className="custom-progress-bar"
                       role="progressbar"
                       aria-label={skill.Stack}
                     />

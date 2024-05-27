@@ -8,7 +8,7 @@ const Education = () => {
   return (
     educationInfo && (
       <Fade bottom duration={2000}>
-        <section className="section pb-0 bg-gradient-primary my-5">
+        <section className="section pb-0 bg-gradient-custom my-5">
           <Container>
             <div className="d-flex px-3">
               <div>
