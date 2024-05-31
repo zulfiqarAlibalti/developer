@@ -10,6 +10,7 @@ import {
   SocialLinksType,
   GreetingsType,
 } from "./types/sections";
+import { link } from "fs";
 
 export const greetings: GreetingsType = {
   name: "Zulfiqar Ali",
@@ -341,6 +342,18 @@ export const experience: ExperienceType[] = [
 ];
 
 export const projects: ProjectType[] = [
+  {
+    name: "Voilence Analytics",
+    desc: "Web application built with Dash and Flask, which analyzes Twitter data related to violence extremism. It includes functionalities like sentiment analysis, data visualization with Plotly, word cloud generation, and geolocation mapping",
+
+    link: "https://github.com/zulfiqarAlibalti/voilenceanalytics"
+  },
+  {
+    name: "Bird Species Classification",
+    desc: "Bird species classification using Deep Learning, Computer Vision, and Flask",
+    link: "https://github.com/zulfiqarAlibalti/bird_classification"
+
+  },
   {
     name: "AI-news Summerizer",
     desc: "AI-based news summarizer using NLP and Machine Learning.",

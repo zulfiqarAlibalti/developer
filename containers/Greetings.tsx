@@ -62,7 +62,7 @@ const Greetings = () => {
               x="0"
               y="0"
             >
-              <path className="fill-white" d="M0,0 C640,100 1280,0 1920,100 2560,0 2560,100 2560,100 L0,100 Z" />
+              <polygon className="fill-white" points="2560 0 2560 100 0 100" />
             </svg>
           </div>
         </section>
