@@ -53,7 +53,7 @@ const Greetings = () => {
               </Row>
             </div>
           </Container>
-          <div className="separator separator-bottom separator-wave">
+          <div className="separator separator-bottom separator-skew">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="none"
