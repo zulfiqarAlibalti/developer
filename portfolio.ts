@@ -14,9 +14,9 @@ import { link } from "fs";
 
 export const greetings: GreetingsType = {
   name: "Zulfiqar Ali",
-  title: "Greetings, I'm Zulfiqar",
+  title: "Hi, I'm Zulfiqar",
   description:
-    "I am a Data Scientist/Full stack developer with a robust foundation in Applied and Computational Mathematics. My expertise spans Machine Learning, Deep Learning, Image Processing, and Signal Processing. I leverage Natural Language Processing to optimize outcomes and excel in developing End-to-End Machine Learning and Computer Vision with full stack applications.",
+    "I am a Data Scientist and Full Stack Developer, currently contributing my expertise at the Press Information Department, Government of Pakistan, as a Data Scientist/Analyst. My passion lies in crafting cutting-edge, real-time Generative AI applications, seamlessly integrating modern React UI components on the frontend with robust backend technologies like Django and FastAPI.I have a deep-seated interest in Audio-Visual processing, with a focus on applications in Healthcare, Autonomous Vehicles, and the Media Industry. My journey is driven by curiosity, innovation, and the relentless pursuit of transformative solutions.",
   resumeLink:
     "https://github.com/zulfiqarAlibalti/Resume/blob/master/Resume.pdf",
 };
@@ -39,19 +39,15 @@ export const socialLinks: SocialLinksType = {
 export const skillsSection = {
   title: "Professional Expertise",
   subTitle:
-    "Design and optimized achine Learning with Application in Healthcare, Autonmous Vehicle and Media Industry",
+    "Intelligent and innovative solutions for real-world problems using cutting-edge technologies.",
   data: [
     {
-      title: "Artificial Intelligence & Deep Neural Networks",
+      title: "Data Anlaytics and Machine Learning",
       lottieAnimationFile: "/lottie/skills/analytics.json",
       skills: [
-        emoji(
-          "⚡Building Preditive System using Generative AI in media Industry"
-        ),
-        emoji("⚡Building End to End system with real time analytics dashboard"),
-        emoji(
-          "⚡Application of Transformer model in Autonoums Vehicles and biomedical aimaging  and biosignal processing"
-        ),
+        emoji("👉 Biomedical Imaging & Signal Processing "),
+        emoji("👉 Audio-Visual analysis with Generative-AI"),
+        emoji("👉 Real-time analytics with multi-media modalities"),
       ],
       softwareSkills: [
         {
@@ -67,11 +63,11 @@ export const skillsSection = {
           iconifyTag: "logos:heroku-icon",
         },
         {
-          skillName: "Machine Leanrning",
+          skillName: "Machine Learning",
           iconifyTag: "carbon:machine-learning",
         },
         {
-          skillName: "Laguage Modeling",
+          skillName: "Language Modeling",
           iconifyTag: "arcticons:openai-chatgpt",
         },
         {
@@ -99,18 +95,16 @@ export const skillsSection = {
       skills: [
         ,
         emoji(
-          "⚡ Creating responsive web apps using HTML, CSS, JavaScript, Bootstrap4,and JQuery"
+          "👉 Design Generative-AI Production ready application Nextjs and Python "
         ),
         emoji(
-          "⚡ Building responsive Single-Page Apps (SPA) and Progressive Web Apps (PWA) in React.js."
+          "👉 Building Web application with RESTFull, FASTAPI as backend"
         ),
-        emoji("⚡ Developing responsive static/dynamic websites using Next.js."),
+        emoji("👉 Developing Full stack Machine learning SaaS application using OpenAI, Google Gemini APIs"),
         emoji(
-          "⚡ Implementing Django REST Framework and building RESTful APIs."
+          "👉 Implementing Relational database to secure real-time data in server side rendering "
         ),
-        emoji(
-          "⚡ Intlligent web application using mern stack with python "
-        ),
+        
       ],
       softwareSkills: [
         {
@@ -145,10 +139,7 @@ export const skillsSection = {
           skillName: "CSS-3",
           iconifyTag: "vscode-icons:file-type-css",
         },
-        {
-          skillName: "WordPress",
-          iconifyTag: "logos:wordpress-icon",
-        },
+        
         {
           skillName: "Yarn",
           iconifyTag: "logos:yarn",
@@ -167,12 +158,12 @@ export const skillsSection = {
       title: "Cloud Computing/DevOps Tools",
       lottieAnimationFile: "/lottie/skills/cloud.json",
       skills: [
-        emoji("⚡ Working on various cloud platforms to build and train Deep Learning and Computer Vision models."),
+        emoji("👉 AWS ECD instances for Biomedical imaging"),
         emoji(
-          "⚡ Deploying websites, hosting, and integrating databases on virtual machine instances."
+          "👉 Dockerized systems for local and deployment"
         ),
         emoji(
-          "⚡ Utilizing Github, Netlify, and Heroku to construct CI/CD pipelines for automated testing and deployment."
+          "👉 Use APIs services to make lightweight applications"
         )
       ],
       softwareSkills: [
@@ -211,8 +202,8 @@ export const skillsSection = {
           iconifyTag: "logos:github-actions",
         },
         {
-          skillName: "Cloudinary",
-          iconifyTag: "logos:cloudinary",
+          skillName: "Vercel",
+          iconifyTag: "logos:vercel",
         },
         {
           skillName: "Nginx",
@@ -225,26 +216,16 @@ export const skillsSection = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Backend in Python",
+    Stack: "Machine Learning",
     progressPercentage: "95",
   },
   {
     Stack: "Research Skill",
     progressPercentage: "90",
   },
- 
-  {
-    Stack: "DevOps Tools",
-    progressPercentage: "80",
-  },
-  
-  {
-    Stack: "Analytical Skill",
-    progressPercentage: "100",
-  },
 
   {
-    Stack: "Frontend",
+    Stack: "NextJs",
     progressPercentage: "80",
   },
 ];

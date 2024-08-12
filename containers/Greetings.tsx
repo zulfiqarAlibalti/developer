@@ -29,7 +29,7 @@ const Greetings = () => {
             <div className="col px-0">
               <Row>
                 <Col lg="6">
-                  <h1 className="display-3 text-white">{greetings.title + " "}</h1>
+                  <h1 className="display-3 text-white font">{greetings.title + " "}</h1>
                   <p className="lead text-white">{greetings.description}</p>
                   <SocialLinks />
                   {greetings.resumeLink && (
