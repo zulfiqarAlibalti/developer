@@ -14,17 +14,17 @@ const Proficiency = () => {
               <h1 className="h1">Proficiency</h1>
               {SkillBars.map(skill => {
                 return (
-                  <div className="progress-info" key={skill.Stack}>
-                    <div className="progress-label">
+                  <div className="progress-info " key={skill.Stack}>
+                    <div className="progress-label ">
                       <span>{skill.Stack}</span>
                     </div>
-                    <div className="progress-percentage">
+                    <div className="progress-percentage ">
                       <span>{skill.progressPercentage}%</span>
                     </div>
                     <Progress
                       max="100"
                       value={skill.progressPercentage}
-                      className="custom-progress-bar"
+                      className="custom-progress-bar "
                       role="progressbar"
                       aria-label={skill.Stack}
                     />

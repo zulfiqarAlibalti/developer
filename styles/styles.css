@@ -1,7 +1,67 @@
 body > div:first-child {
   overflow-x: hidden;
 }
+
+/* Shape styling */
+/* .shape.shape-style-1 { */
+ /* border-radius: 50%; Make it circular
+ /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); /* Add shadow */
+ /* transform: scale(1.2); /* Increase size slightly */
+/*}
+
+/* Background customization */
 .bg-gradient-custom {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(7,62,156,1) 52%, rgba(6,84,170,1) 59%, rgba(5,96,178,1) 63%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(126,186,85,1) 0%, rgba(114,118,184,1) 14%, rgba(33,205,177,1) 35%, rgba(69,74,200,1) 48%, rgba(102,195,180,1) 60%, rgba(76,146,219,1) 76%, rgba(63,157,225,1) 80%, rgba(25,169,243,1) 92%, rgba(0,212,255,1) 100%); /* Custom gradient */
+  opacity: 0.9; /* Slight transparency */
+}
+@keyframes moveRandomly {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(200px, -100px);
+  }
+  50% {
+    transform: translate(-150px, 200px);
+  }
+  75% {
+    transform: translate(100px, -150px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+
+.shape.shape-style-1 span {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #fff; /* Adjust the color to your preference */
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  margin: 10px; /* Adjust margin to your liking */
+  position: absolute; /* Positioning for random movement */
+  animation: moveRandomly 10s linear infinite; /* Move randomly animation */
+}
+
+.icon-square-rounded {
+  width: 70px; /* Adjust size as needed */
+  height: 70px;
+  border-radius: 12px; /* Adjust the rounding as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d0d1d7; /* Optional: Add background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
 }

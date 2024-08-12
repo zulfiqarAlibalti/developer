@@ -35,7 +35,7 @@ const Greetings = () => {
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
                       <Button
-                        className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+                        className="btn-white btn-icon mb-3 mb-sm-0 ml-1 "
                         color="default"
                         href={greetings.resumeLink}
                       >
@@ -53,7 +53,7 @@ const Greetings = () => {
               </Row>
             </div>
           </Container>
-          <div className="separator separator-bottom separator-skew">
+          {/* <div className="separator separator-bottom separator-skew">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="none"
@@ -64,7 +64,7 @@ const Greetings = () => {
             >
               <polygon className="fill-white" points="2560 0 2560 100 0 100" />
             </svg>
-          </div>
+          </div> */}
         </section>
       </div>
     </main>

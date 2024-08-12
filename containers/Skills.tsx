@@ -15,7 +15,7 @@ const Skills = () => {
           {skillsSection.data.map((section, index) => {
             return (
               <Row className="my-5" key={index}>
-                <Col lg="6" className="order-2 order-lg-1">
+                <Col lg="6" className="order-2 order-lg-1 ">
                   <DisplayLottie animationPath={section.lottieAnimationFile} />
                 </Col>
                 <Col lg="6" className="order-1 order-lg-2">
@@ -25,7 +25,7 @@ const Skills = () => {
                       return (
                         <Fragment key={i}>
                           <div
-                            className="icon icon-lg icon-shape shadow-sm rounded-circle m-1"
+                            className="icon icon-lg icon-shape shadow-sm icon-square-rounded m-1 "
                             id={skill.skillName.replace(/\s/g, "")}
                           >
                             <Icon icon={skill.iconifyTag} data-inline="false"></Icon>

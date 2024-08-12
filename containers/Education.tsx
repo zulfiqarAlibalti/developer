@@ -13,7 +13,7 @@ const Education = () => {
             <div className="d-flex px-3">
               <div>
                 <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                  <i className="ni ni-books text-info" />
+                  <i className="ni ni-hat-3 text-primary" />
                 </div>
               </div>
               <div className="pl-4">
@@ -30,7 +30,7 @@ const Education = () => {
               })}
             </Row>
           </Container>
-          <div className="separator separator-bottom separator-skew zindex-100">
+          {/* <div className="separator separator-bottom separator-skew zindex-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="none"
@@ -41,7 +41,7 @@ const Education = () => {
             >
               <polygon className="fill-white" points="2560 0 2560 100 0 100" />
             </svg>
-          </div>
+          </div> */}
         </section>
       </Fade>
     )
