@@ -388,12 +388,12 @@ export const projects: ProjectType[] = [
   //   desc: "Created a comprehensive Python course for Data Science and Mathematicians/Statisticians.",
   //   link: "https://example.com",
   // },
-  {
-    name: "Essential Mathematics for Machine Learning",
-    desc: "Developed a mathematical foundation behind Machine Learning and Deep learning algorithms.",
+  // {
+  //   name: "Essential Mathematics for Machine Learning",
+  //   desc: "Developed a mathematical foundation behind Machine Learning and Deep learning algorithms.",
     
 	
-  },
+  // },
 ];
 
 export const feedbacks: FeedbackType[] = [
