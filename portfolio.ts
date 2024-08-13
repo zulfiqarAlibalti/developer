@@ -383,11 +383,11 @@ export const projects: ProjectType[] = [
     desc: "Development of computer vision and image processing models using OpenCV and Python.",
     link: "https://example.com",
   },
-  {
-    name: "Python Introductory Course",
-    desc: "Created a comprehensive Python course for Data Science and Mathematicians/Statisticians.",
-    link: "https://example.com",
-  },
+  // {
+  //   name: "Python Introductory Course",
+  //   desc: "Created a comprehensive Python course for Data Science and Mathematicians/Statisticians.",
+  //   link: "https://example.com",
+  // },
   {
     name: "Essential Mathematics for Machine Learning",
     desc: "Developed a mathematical foundation behind Machine Learning and Deep learning algorithms.",
