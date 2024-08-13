@@ -25,7 +25,7 @@ const Navigation = () => {
                 {greetings.name}
               </h2>
             </NavbarBrand>
-            <button className="navbar-toggler " aria-label="navbar_toggle" id="navbar_global">
+            <button className="navbar-toggler" aria-label="navbar_toggle" id="navbar_global">
               <span className="navbar-toggler-icon" />
             </button>
             <UncontrolledCollapse
@@ -38,7 +38,7 @@ const Navigation = () => {
               <div className="navbar-collapse-header ">
                 <Row>
                   <Col className="collapse-brand" xs="6">
-                    <h3 className="text-gray-500 font-bold" id="nav-title">
+                    <h3 className=" font-bold" id="nav-title">
                       {greetings.name}
                     </h3>
                   </Col>

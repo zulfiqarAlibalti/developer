@@ -29,14 +29,14 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
               {link ? (
                 <Button
                   className="btn-icon"
-                  color="success"
+                  color="info"
                   href={link}
                   target="_blank"
                   rel="noopener"
                   aria-label="Twitter"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-arrow-right mr-2" />
+                    <i className="fa fa-rocket mr-2" />
                   </span>
                   <span className="nav-link-inner--text ml-1">Demo</span>
                 </Button>

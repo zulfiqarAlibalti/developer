@@ -324,8 +324,14 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
+    name: "AI-Form Builder",
+    desc: "AI-based form builder application using Nextjs and Google Generative-AI API.",
+    link: "https://ai-form-generation.vercel.app/"
+  },
+  {
     name: "Generative AI Application",
     desc: "Text,Image, Video and Audio generation SaaS Application in Nextjs using OpenAI API and Riplit API",
+    link: "https://next-genai.vercel.app/"
   },
   {
     name: "Voilence Analytics",

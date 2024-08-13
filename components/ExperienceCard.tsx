@@ -17,8 +17,8 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
               top: "7rem",
               marginLeft: "auto",
               marginRight: "auto",
-              width: "8rem",
-              height: "8rem",
+              width: "4rem",
+              height: "4rem",
               borderRadius: "50%",
             }}
             className="shadow mb-3"
