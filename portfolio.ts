@@ -264,10 +264,10 @@ export const experience: ExperienceType[] = [
     company: "Press Information Department, Government of Pakistan",
     companyLogo: "/img/icons/common/pid.jpg",
     date: "April 2023 – Present",
-    desc: "Automating and processing media information using Artificial Intelligence.",
+    desc: "Audio-visual transcription and analysis for real-time news monitoring.",
     descBullets: [
-      "Conducting sentiment analysis.",
-      "Analyzing content using Natural Language Processing & Machine Learning approaches.",
+      "Social media analytics and predictive analysis with NLP and Machine Learning.",
+      "Analyzing content using Natural Language Processing and Computer Vision.",
     ],
   },
   {
@@ -323,6 +323,10 @@ export const experience: ExperienceType[] = [
 ];
 
 export const projects: ProjectType[] = [
+  {
+    name: "Generative AI Application",
+    desc: "Text,Image, Video and Audio generation SaaS Application in Nextjs using OpenAI API and Riplit API",
+  },
   {
     name: "Voilence Analytics",
     desc: "Web application built with Dash and Flask, which analyzes Twitter data related to violence extremism. It includes functionalities like sentiment analysis, data visualization with Plotly, word cloud generation, and geolocation mapping",

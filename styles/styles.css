@@ -65,3 +65,9 @@ body > div:first-child {
   background-color: #d0d1d7; /* Optional: Add background color */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
 }
+
+#nav-title {
+  font-family:'Nunito', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}

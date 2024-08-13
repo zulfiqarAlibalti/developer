@@ -7,7 +7,7 @@ const SocialLinks = () => {
     <div className="btn-wrapper text-lg">
       {socialLinks.email && (
         <Button
-          className="btn-icon-only rounded-circle ml-1"
+          className="btn-icon-only rounded-square ml-1"
           color="white"
           rel="noopener"
           aria-label="URL"
@@ -21,7 +21,7 @@ const SocialLinks = () => {
       )}
       {socialLinks.linkedin && (
         <Button
-          className="btn-icon-only rounded-circle ml-1"
+          className="btn-icon-only rounded-square ml-1"
           color="twitter"
           rel="noopener"
           aria-label="Linkedin"
@@ -35,7 +35,7 @@ const SocialLinks = () => {
       )}
       {socialLinks.github && (
         <Button
-          className="btn-icon-only rounded-circle ml-1"
+          className="btn-icon-only rounded-square ml-1"
           color="github"
           href={socialLinks.github}
           rel="noopener"
@@ -49,7 +49,7 @@ const SocialLinks = () => {
       )}
       {socialLinks.instagram && (
         <Button
-          className="btn-icon-only rounded-circle ml-1"
+          className="btn-icon-only rounded-square ml-1"
           color="instagram"
           href={socialLinks.instagram}
           target="_blank"
@@ -63,7 +63,7 @@ const SocialLinks = () => {
       )}
       {socialLinks.facebook && (
         <Button
-          className="btn-icon-only rounded-circle ml-1"
+          className="btn-icon-only rounded-square ml-1"
           color="facebook"
           href={socialLinks.facebook}
           target="_blank"
@@ -77,7 +77,7 @@ const SocialLinks = () => {
       )}
       {socialLinks.twitter && (
         <Button
-          className="btn-icon-only rounded-circle"
+          className="btn-icon-only rounded-square ml-1"
           color="twitter"
           href={socialLinks.twitter}
           target="_blank"

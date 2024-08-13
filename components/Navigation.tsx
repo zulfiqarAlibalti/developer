@@ -17,15 +17,15 @@ const Navigation = () => {
 
   return (
     <>
-      <header className="header-global">
+      <header className="header-global ">
         <Navbar className="navbar-main navbar-transparent navbar-light headroom" expand="lg" id="navbar-main">
           <Container>
             <NavbarBrand href="/" className="mr-lg-5">
-              <h2 className="text-yellow" id="nav-title">
+              <h2 className="text-white" id="nav-title">
                 {greetings.name}
               </h2>
             </NavbarBrand>
-            <button className="navbar-toggler" aria-label="navbar_toggle" id="navbar_global">
+            <button className="navbar-toggler " aria-label="navbar_toggle" id="navbar_global">
               <span className="navbar-toggler-icon" />
             </button>
             <UncontrolledCollapse
@@ -35,15 +35,15 @@ const Navigation = () => {
               onExiting={onExiting}
               onExited={onExited}
             >
-              <div className="navbar-collapse-header">
+              <div className="navbar-collapse-header ">
                 <Row>
                   <Col className="collapse-brand" xs="6">
-                    <h3 className="text-black" id="nav-title">
+                    <h3 className="text-gray-500 font-bold" id="nav-title">
                       {greetings.name}
                     </h3>
                   </Col>
-                  <Col className="collapse-close" xs="6">
-                    <button className="navbar-toggler" id="navbar_global">
+                  <Col className="collapse-close " xs="6">
+                    <button className="navbar-toggler " id="navbar_global">
                       <span />
                       <span />
                     </button>
