@@ -46,7 +46,7 @@ export const skillsSection = {
       lottieAnimationFile: "/lottie/skills/analytics.json",
       skills: [
         emoji("👉 Biomedical Imaging & Signal Processing "),
-        emoji("👉 Audio-Visual analysis with Generative-AI"),
+        emoji("👉 Text, and image generation with training BERT and  Difussion models"),
         emoji("👉 Real-time analytics with multi-media modalities"),
       ],
       softwareSkills: [
@@ -330,7 +330,7 @@ export const projects: ProjectType[] = [
   },
   {
     name: "Generative AI Application",
-    desc: "Text,Image, Video and Audio generation SaaS Application in Nextjs using OpenAI API and Riplit API",
+    desc: "Text to text,Text to Image, Text to Video and Audio generation SaaS Application in Nextjs using BERT, duffion model",
     link: "https://next-genai.vercel.app/"
   },
   {
