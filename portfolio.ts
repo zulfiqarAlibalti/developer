@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   name: "Zulfiqar Ali",
   title: "Hi, I'm Zulfiqar",
   description:
-    "I am a Data Scientist and Full Stack Developer, currently contributing my expertise at the Press Information Department, Government of Pakistan, as a Data Scientist/Analyst. My passion lies in crafting cutting-edge, real-time Generative AI applications, seamlessly integrating modern React UI components on the frontend with robust backend technologies like Django and FastAPI.I have a deep-seated interest in Audio-Visual processing, with a focus on applications in Healthcare, Autonomous Vehicles, and the Media Industry. My journey is driven by curiosity, innovation, and the relentless pursuit of transformative solutions.",
+    "I am a Data Scientist, My Research and Developement experience span around  multimodal processing  with deep learning and statistical modeling , with a focus on applications in Healthcare, Autonomous Vehicles, and the Media Industry. My journey is driven by curiosity, innovation, and the relentless pursuit of transformative solutions.",
   resumeLink:
     "https://github.com/zulfiqarAlibalti/Resume/blob/master/Resume.pdf",
 };
@@ -34,10 +34,11 @@ export const socialLinks: SocialLinksType = {
   twitter: "https://twitter.com/Zulfiqa08762401",
   github: "https://github.com/zulfiqarAlibalti",
   linkedin: "https://www.linkedin.com/in/zulfiqar-ali592/",
+  youtube: "https://www.youtube.com/@InnvoAI",
 };
 
 export const skillsSection = {
-  title: "Professional Expertise",
+  title: "Data Science Expertise",
   subTitle:
     "Intelligent and innovative solutions for real-world problems using cutting-edge technologies.",
   data: [
@@ -45,9 +46,12 @@ export const skillsSection = {
       title: "Data Anlaytics and Machine Learning",
       lottieAnimationFile: "/lottie/skills/analytics.json",
       skills: [
-        emoji("👉 Biomedical Imaging & Signal Processing "),
-        emoji("👉 Text, and image generation with training BERT and  Difussion models"),
-        emoji("👉 Real-time analytics with multi-media modalities"),
+        emoji("👉 Multimodal machine learning  "),
+        emoji("👉 Difussion models and Transformer models"),
+        emoji("👉 Theoretical and pratical knowledge of statistical learning"),
+        emoji("👉 Biomedical imaging and signal processing"),
+        emoji("👉 Time series data analysis"),
+        
       ],
       softwareSkills: [
         {
@@ -90,7 +94,7 @@ export const skillsSection = {
     },
     
     {
-      title: "Full Stack Web Development",
+      title: " Web Development",
       lottieAnimationFile: "/lottie/skills/fullstack3.json",
       skills: [
         ,
@@ -158,7 +162,7 @@ export const skillsSection = {
       title: "Cloud Computing/DevOps Tools",
       lottieAnimationFile: "/lottie/skills/cloud.json",
       skills: [
-        emoji("👉 AWS ECD instances for Biomedical imaging"),
+        emoji("👉 AWS ECD instances for multimodal analysis"),
         emoji(
           "👉 Dockerized systems for local and deployment"
         ),
@@ -277,7 +281,7 @@ export const experience: ExperienceType[] = [
     date: "September 2022 - February 2023 ",
     desc: "Working on deep architecture for Light-based imaging modality capturing real-time 2D cross-sectional and 3D volumetric images with micron-scale resolution.",
     descBullets: [
-      "Applying deep learning to analyze clinical images.",
+      "Bio medical imaging and signal processing.",
       "Build end to end application for lung nudles segmentation.",
       "Conducting biomedical imaging  3DNet  Algorithms.",
       "Training and deploying Vision Transformer (ViTs) models with an End-to-End solution.",
@@ -323,6 +327,12 @@ export const experience: ExperienceType[] = [
 ];
 
 export const projects: ProjectType[] = [
+  {
+    name: "Deep Learning ",
+    desc: "Multimodal, Postpartum Depression  Detection using Deep Learning and Statistical Learning.",
+    link: "https://github.com/zulfiqarAlibalti/"
+  },
+
   {
     name: "AI-Form Builder",
     desc: "AI-based form builder application using Nextjs and Google Generative-AI API.",

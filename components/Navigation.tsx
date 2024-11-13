@@ -120,7 +120,24 @@ const Navigation = () => {
                       <span className="nav-link-inner--text d-lg-none ml-2">Twitter</span>
                     </NavLink>
                   </NavItem>
+                  
                 )}
+                 {socialLinks.youtube && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="Youtube"
+                      className="nav-link-icon"
+                      href={socialLinks.youtube}
+                      target="_blank"
+                    >
+                      <i className="fa fa-youtube-square" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">Twitter</span>
+                    </NavLink>
+                  </NavItem>
+                  
+                )}
+                
               </Nav>
             </UncontrolledCollapse>
           </Container>

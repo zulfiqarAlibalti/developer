@@ -38,7 +38,7 @@ body > div:first-child {
   width: 100px;
   height: 100px;
   background-color: #fff; /* Adjust the color to your preference */
-  clip-path: polygon(
+  clip-path: circular(
     50% 0%,
     61% 35%,
     98% 35%,

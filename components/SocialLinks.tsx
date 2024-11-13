@@ -89,6 +89,20 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
+      {socialLinks.youtube && (
+  <Button
+    className="btn-icon-only rounded-square ml-1"
+    style={{ backgroundColor: "#FF0000", border: "none" }} // YouTube red background
+    href={socialLinks.youtube}
+    target="_blank"
+    rel="noopener"
+    aria-label="Youtube"
+  >
+    <span className="btn-inner--icon">
+      <i className="fa fa-youtube" style={{ color: "#FFFFFF", fontSize:"18px" }}  /> {/* White icon color */}
+    </span>
+  </Button>
+)}
     </div>
   );
 };
