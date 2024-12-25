@@ -33,7 +33,7 @@ export const socialLinks: SocialLinksType = {
   instagram: "https://www.instagram.com/zulfibalti96/?hl=en",
   twitter: "https://twitter.com/Zulfiqa08762401",
   github: "https://github.com/zulfiqarAlibalti",
-  linkedin: "https://www.linkedin.com/in/zulfiqar-ali592/",
+  linkedin: "https://www.linkedin.com/in/zulfiqar-ali01/",
   youtube: "https://www.youtube.com/@InnvoAI",
 };
 
