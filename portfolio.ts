@@ -237,7 +237,7 @@ export const SkillBars: SkillBarsType[] = [
 export const educationInfo: EducationType[] = [
   {
     schoolName: "Sejong University",
-    subHeader: "Graduate Rsearch Assistant",
+    subHeader: "Graduate Research Assistant",
     duration: "September 2022 - February 2023",
     desc: "",
     grade: "Grade A",
