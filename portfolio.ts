@@ -4,7 +4,7 @@ import {
   ExperienceType,
   FeedbackType,
   ProjectType,
-  SkillsSectionType,
+  // SkillsSectionType,
   SkillBarsType,
   SEODataType,
   SocialLinksType,
