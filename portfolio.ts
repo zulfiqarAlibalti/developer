@@ -43,64 +43,64 @@ export const socialLinks: SocialLinksType = {
   youtube: "https://www.youtube.com/@InnvoAI",
 };
 
-// Skills Section
-export const skillsSection: SkillsSectionType = {
-  title: "What I Do",
-  subTitle: "Innovative Solutions for Real-World Problems",
-  data: [
-    {
-      title: "Data Science & Machine Learning",
-      lottieAnimationFile: "/lottie/skills/analytics.json",
-      skills: [
-        emoji("🔍 Multimodal machine learning for healthcare and autonomous systems"),
-        emoji("🧠 Diffusion models, Transformers, and advanced deep learning architectures"),
-        emoji("📊 Statistical learning and time-series analysis"),
-        emoji("🩺 Biomedical imaging and signal processing"),
-      ],
-      softwareSkills: [
-        { skillName: "Python", iconifyTag: "logos:python" },
-        { skillName: "PyTorch", iconifyTag: "devicon:pytorch" },
-        { skillName: "TensorFlow", iconifyTag: "devicon:tensorflow-wordmark" },
-        { skillName: "OpenCV", iconifyTag: "skill-icons:opencv-dark" },
-        { skillName: "Machine Learning", iconifyTag: "carbon:machine-learning" },
-        { skillName: "Data Structures", iconifyTag: "carbon:data-structured" },
-      ],
-    },
-    {
-      title: "Full Stack Development",
-      lottieAnimationFile: "/lottie/skills/fullstack3.json",
-      skills: [
-        emoji("🚀 Building Generative AI applications with Next.js and Python"),
-        emoji("🌐 Developing SaaS platforms with RESTful APIs and FastAPI"),
-        emoji("💾 Implementing relational databases for secure, real-time data handling"),
-      ],
-      softwareSkills: [
-        { skillName: "JavaScript", iconifyTag: "logos:javascript" },
-        { skillName: "React", iconifyTag: "vscode-icons:file-type-reactjs" },
-        { skillName: "Next.js", iconifyTag: "vscode-icons:file-type-light-next" },
-        { skillName: "Node.js", iconifyTag: "logos:nodejs" },
-        { skillName: "PostgreSQL", iconifyTag: "logos:postgresql" },
-        { skillName: "MongoDB", iconifyTag: "vscode-icons:file-type-mongo" },
-      ],
-    },
-    {
-      title: "Cloud & DevOps",
-      lottieAnimationFile: "/lottie/skills/cloud.json",
-      skills: [
-        emoji("☁️ Deploying scalable applications on AWS and Azure"),
-        emoji("🐳 Dockerizing applications for seamless deployment"),
-        emoji("🤖 Automating workflows with GitHub Actions"),
-      ],
-      softwareSkills: [
-        { skillName: "AWS", iconifyTag: "logos:aws" },
-        { skillName: "Docker", iconifyTag: "logos:docker-icon" },
-        { skillName: "GitHub Actions", iconifyTag: "logos:github-actions" },
-        { skillName: "Azure", iconifyTag: "logos:microsoft-azure" },
-        { skillName: "Nginx", iconifyTag: "logos:nginx" },
-      ],
-    },
-  ],
-};
+// // Skills Section
+// export const skillsSection: SkillsSectionType = {
+//   title: "What I Do",
+//   subTitle: "Innovative Solutions for Real-World Problems",
+//   data: [
+//     {
+//       title: "Data Science & Machine Learning",
+//       lottieAnimationFile: "/lottie/skills/analytics.json",
+//       skills: [
+//         emoji("🔍 Multimodal machine learning for healthcare and autonomous systems"),
+//         emoji("🧠 Diffusion models, Transformers, and advanced deep learning architectures"),
+//         emoji("📊 Statistical learning and time-series analysis"),
+//         emoji("🩺 Biomedical imaging and signal processing"),
+//       ],
+//       softwareSkills: [
+//         { skillName: "Python", iconifyTag: "logos:python" },
+//         { skillName: "PyTorch", iconifyTag: "devicon:pytorch" },
+//         { skillName: "TensorFlow", iconifyTag: "devicon:tensorflow-wordmark" },
+//         { skillName: "OpenCV", iconifyTag: "skill-icons:opencv-dark" },
+//         { skillName: "Machine Learning", iconifyTag: "carbon:machine-learning" },
+//         { skillName: "Data Structures", iconifyTag: "carbon:data-structured" },
+//       ],
+//     },
+//     {
+//       title: "Full Stack Development",
+//       lottieAnimationFile: "/lottie/skills/fullstack3.json",
+//       skills: [
+//         emoji("🚀 Building Generative AI applications with Next.js and Python"),
+//         emoji("🌐 Developing SaaS platforms with RESTful APIs and FastAPI"),
+//         emoji("💾 Implementing relational databases for secure, real-time data handling"),
+//       ],
+//       softwareSkills: [
+//         { skillName: "JavaScript", iconifyTag: "logos:javascript" },
+//         { skillName: "React", iconifyTag: "vscode-icons:file-type-reactjs" },
+//         { skillName: "Next.js", iconifyTag: "vscode-icons:file-type-light-next" },
+//         { skillName: "Node.js", iconifyTag: "logos:nodejs" },
+//         { skillName: "PostgreSQL", iconifyTag: "logos:postgresql" },
+//         { skillName: "MongoDB", iconifyTag: "vscode-icons:file-type-mongo" },
+//       ],
+//     },
+//     {
+//       title: "Cloud & DevOps",
+//       lottieAnimationFile: "/lottie/skills/cloud.json",
+//       skills: [
+//         emoji("☁️ Deploying scalable applications on AWS and Azure"),
+//         emoji("🐳 Dockerizing applications for seamless deployment"),
+//         emoji("🤖 Automating workflows with GitHub Actions"),
+//       ],
+//       softwareSkills: [
+//         { skillName: "AWS", iconifyTag: "logos:aws" },
+//         { skillName: "Docker", iconifyTag: "logos:docker-icon" },
+//         { skillName: "GitHub Actions", iconifyTag: "logos:github-actions" },
+//         { skillName: "Azure", iconifyTag: "logos:microsoft-azure" },
+//         { skillName: "Nginx", iconifyTag: "logos:nginx" },
+//       ],
+//     },
+//   ],
+// };
 
 // Skill Bars Section
 export const SkillBars: SkillBarsType[] = [
@@ -110,8 +110,6 @@ export const SkillBars: SkillBarsType[] = [
   { Stack: "Python", progressPercentage: "90" },
   { Stack: "Deep Learning", progressPercentage: "90" },
 ];
-
-// Education Section
 export const educationInfo: EducationType[] = [
   {
     schoolName: "Sejong University",
@@ -160,7 +158,6 @@ export const experience: ExperienceType[] = [
     desc: "Gained hands-on experience with supervised learning algorithms through practical projects and Kaggle competitions. Developed predictive models for various business applications.",
   },
 ];
-
 // Projects Section
 export const projects: ProjectType[] = [
   {
