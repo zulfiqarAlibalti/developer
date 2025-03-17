@@ -22,25 +22,25 @@ export type GreetingsType = {
   resumeLink?: string;
 };
 
-// * SKILLS SECTION
+// // * SKILLS SECTION
 
-type SoftwareSkillType = {
-  skillName: string;
-  iconifyTag: string;
-};
+// type SoftwareSkillType = {
+//   skillName: string;
+//   iconifyTag: string;
+// };
 
-type SkillType = {
-  title: string;
-  lottieAnimationFile: string;
-  skills: React.ReactNode[] | string[];
-  softwareSkills: SoftwareSkillType[];
-};
+// type SkillType = {
+//   title: string;
+//   lottieAnimationFile: string;
+//   skills: React.ReactNode[] | string[];
+//   softwareSkills: SoftwareSkillType[];
+// };
 
-export type SkillsSectionType = {
-  title: string;
-  subTitle: string;
-  data: SkillType[];
-};
+// export type SkillsSectionType = {
+//   title: string;
+//   subTitle: string;
+//   data: SkillType[];
+// };
 
 // * PROFICIENCY SECTION
 
